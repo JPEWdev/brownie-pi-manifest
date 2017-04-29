@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="github" fetch="https://github.com"/>
+    <remote name="yoctoproject" fetch="https://git.yoctoproject.org"/>
+
+    <default revision="refs/heads/master" sync-j="4"/>
+
+    <project name="git/poky" remote="yoctoproject" path="poky" revision="refs/heads/pyro"/>
+    <project name="git/meta-raspberrypi" remote="yoctoproject" path="meta-raspberrypi"/>
+    <project name="JPEWdev/meta-brownie-pi" remote="github" path="meta-brownie-pi"/>
+</manifest>
